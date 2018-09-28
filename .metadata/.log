@@ -282,3 +282,8 @@ Caused by: java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEdi
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 23 more
+
+!ENTRY org.eclipse.core.resources 2 2 2018-09-28 14:26:24.811
+!MESSAGE 保管操作の警告。
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2018-09-28 14:26:24.813
+!MESSAGE 'RemoteSystemsTempFiles' のプロジェクト記述ファイル (.project) がありませんでした。 このファイルには、プロジェクトに関する重要な情報が含まれています。 新しいプロジェクト記述ファイルが作成されましたが、プロジェクトに関する情報の一部が破損している可能性があります。
